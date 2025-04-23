@@ -1,0 +1,3 @@
+raw
+brain_extracted
+masks
