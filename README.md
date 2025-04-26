@@ -18,10 +18,25 @@ The workflow is implemented step-by-step in notebook format, making it easy to f
 - NumPy, OpenCV
 - Jupyter Notebook
 
-## 📁 Project Structure (to be updated)
-- 
-- 
-- 
+## 📁 Project Structure 
+```
+brain-stroke-detection/
+├── data/
+│   ├── data.txt
+│
+├── notebooks/
+│   ├── classification/
+│   │   ├── 01_raw_patchless.ipynb       # Raw image, patchless classification
+│   │   └── 02_raw_patch.ipynb           # Raw image, patched classification
+│   │   
+│   │   
+│   │
+│   └── segmentation/
+│       ├── 01_synthetic_image_segmentation.ipynb
+│       └── 02_raw_patchless.ipynb       # Raw image, patchless segmentation
+│       
+│       
+```
 
 ## 🚧 Status
 This project is currently in progress. Notebooks will be added and updated as the work evolves.  
